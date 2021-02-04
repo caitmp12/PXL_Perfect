@@ -10,7 +10,9 @@
 
 .announcement {
     background-color: rgb(279, 220, 74);
-    font-size: 25px;
     /* padding moves clockwise direction around the compass */
     padding: 15px 45px 15px 45px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
 }
