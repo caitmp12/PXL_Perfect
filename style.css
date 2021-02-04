@@ -1,0 +1,16 @@
+/* CSS for the entire page */
+    /* box-sizing: allows us to include the padding and border in an element's total width and height (makes it so the border is inside the div) */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-size: 36px; */
+    box-sizing: border-box; 
+}
+
+.announcement {
+    background-color: rgb(279, 220, 74);
+    font-size: 25px;
+    /* padding moves clockwise direction around the compass */
+    padding: 15px 45px 15px 45px;
+}
