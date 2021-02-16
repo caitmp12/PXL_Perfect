@@ -21,5 +21,34 @@ header {
     background-color: #000;
     color: #fff;
     font-family: sans-serif;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
     text-transform: uppercase;
 }
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+/* nav a refers to any a tags within the nav */
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #ff0000; 
+}
+
